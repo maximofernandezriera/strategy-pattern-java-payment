@@ -8,17 +8,6 @@ El patrón de estrategia es un patrón de diseño de comportamiento que permite 
 - **Reutilización de código**: Las estrategias pueden ser reutilizadas en diferentes contextos.
 - **Mantenimiento**: Facilita el mantenimiento y la extensión del código.
 
-## Prerrequisitos
-- Tener instalado Java Development Kit (JDK) 8 o superior.
-
-## Instalación
-1. Clona el repositorio: `git clone https://github.com/maximofernandezriera/strategy-pattern-java-payment.git`
-2. Navega al directorio del proyecto: `cd strategy-pattern-java-payment`
-
-## Uso
-1. Compila el código: `javac StrategyDemo.java`
-2. Ejecuta el programa: `java StrategyDemo`
-
 ## Ejemplo de Código
 
 ```java
