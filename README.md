@@ -1,5 +1,8 @@
 # strategy-pattern-java-payment
-### Finalidad: Definir una familia de algoritmos, encapsular cada uno y hacerlos intercambiables. Ejemplo sencillo aplicado en una pasarela de pago.
+
+### Finalidad: Definir una familia de algoritmos, encapsular cada uno y hacerlos intercambiables. 
+
+### Ejemplo sencillo en Java aplicado en una pasarela de pago.
 
 
 ```
@@ -40,10 +43,10 @@ class ShoppingCart {
 public class StrategyDemo {
     public static void main(String[] args) {
         ShoppingCart cart = new ShoppingCart();
-        cart.setPaymentStrategy(new CreditCardPayment("1234-5678-9012-3456"));
+        cart.setPaymentStrategy(new CreditCardPayment("1224-2278-9012-1456"));
         cart.checkout(100); // Salida: 100 pagado con tarjeta de crédito.
 
-        cart.setPaymentStrategy(new PaypalPayment("user@example.com"));
+        cart.setPaymentStrategy(new PaypalPayment("maximo@fernandez.com"));
         cart.checkout(50);  // Salida: 50 pagado con PayPal.
     }
 }
