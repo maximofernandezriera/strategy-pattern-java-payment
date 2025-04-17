@@ -1,9 +1,7 @@
-# strategy-pattern-java-payment
+# Ejemplo sencillo de patron estrategia en Java aplicado en una pasarela de pago.
 
 ### Finalidad: Definir una familia de algoritmos, encapsular cada uno y hacerlos intercambiables. 
-
-### Ejemplo sencillo en Java aplicado en una pasarela de pago.
-
+### Vamos al grano, ahora sí que van a molar los interfaces con sus implements. :)
 
 ```
 // Interfaz de Estrategia
